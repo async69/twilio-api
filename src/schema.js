@@ -12,10 +12,10 @@ module.exports =  gql`
 
     type Message {
         message: String
-        error: Error
+        error: ErrorText
     }
 
-    type Error {
+    type ErrorText {
         value: Boolean
         message: String
     }
